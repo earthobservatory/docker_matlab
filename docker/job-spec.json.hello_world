@@ -1,5 +1,8 @@
 {
   "command": "/home/ops/verdi/ops/hello_world/hello_world",
   "recommended-queues": [ "factotum-job_worker-small" ],
-  "params": []
+  "params": [],
+  "soft_time_limit": 900,
+  "time_limit": 1800,
+  "disk_usage": "3GB"
 }
